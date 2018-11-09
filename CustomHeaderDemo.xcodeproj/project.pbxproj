@@ -12,6 +12,8 @@
 		0EC9637D1FC8B8E600500EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9637B1FC8B8E600500EBD /* Main.storyboard */; };
 		0EC9637F1FC8B8E600500EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9637E1FC8B8E600500EBD /* Assets.xcassets */; };
 		0EC963821FC8B8E600500EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC963801FC8B8E600500EBD /* LaunchScreen.storyboard */; };
+		0EC9638A1FC8BD2D00500EBD /* DemoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC963891FC8BD2D00500EBD /* DemoHeaderView.swift */; };
+		0EC9638C1FC8BDCB00500EBD /* DemoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9638B1FC8BDCB00500EBD /* DemoHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0EC9637E1FC8B8E600500EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC963811FC8B8E600500EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC963831FC8B8E600500EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC963891FC8BD2D00500EBD /* DemoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoHeaderView.swift; sourceTree = "<group>"; };
+		0EC9638B1FC8BDCB00500EBD /* DemoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0EC9637E1FC8B8E600500EBD /* Assets.xcassets */,
 				0EC963801FC8B8E600500EBD /* LaunchScreen.storyboard */,
 				0EC963831FC8B8E600500EBD /* Info.plist */,
+				0EC963891FC8BD2D00500EBD /* DemoHeaderView.swift */,
+				0EC9638B1FC8BDCB00500EBD /* DemoHeaderView.xib */,
 			);
 			path = CustomHeaderDemo;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC9638C1FC8BDCB00500EBD /* DemoHeaderView.xib in Resources */,
 				0EC963821FC8B8E600500EBD /* LaunchScreen.storyboard in Resources */,
 				0EC9637F1FC8B8E600500EBD /* Assets.xcassets in Resources */,
 				0EC9637D1FC8B8E600500EBD /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC9638A1FC8BD2D00500EBD /* DemoHeaderView.swift in Sources */,
 				0EC9637A1FC8B8E600500EBD /* ViewController.swift in Sources */,
 				0EC963781FC8B8E600500EBD /* AppDelegate.swift in Sources */,
 			);
